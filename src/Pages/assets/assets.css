@@ -7,7 +7,7 @@
 
 .assets > div {
   display: flex;
-  flex-direction: column;
+  flex-direction: column !important;
   gap: 12px;
   width: 100%;
   margin-top: 5px;
@@ -90,6 +90,7 @@
 .list {
   background: none !important;
   padding: 0;
+  flex-direction: column;
 }
 
 .list > div {
