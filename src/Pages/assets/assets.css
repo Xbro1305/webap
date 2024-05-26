@@ -1,0 +1,111 @@
+.assets {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+}
+
+.assets > div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  background: #f8f9fe;
+  padding: 12px;
+  border-radius: 16px;
+}
+
+.assets > section > div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  background: #f8f9fe;
+  padding: 12px;
+  border-radius: 16px;
+}
+
+.assets h1 {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.assets h1 p {
+  font-size: 16px;
+  display: flex;
+  font-weight: 400;
+}
+
+.assets div span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #71727a;
+}
+
+.assets h2 {
+  color: #71727a;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.assets > section {
+  display: flex;
+  gap: 12px;
+}
+
+.assets > section > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 160px;
+}
+
+.assets > section > div > section {
+  border-radius: 12px;
+  background: #eaf2ff;
+  width: auto;
+  padding: 15px;
+  width: 90px;
+  color: #006ffd;
+}
+
+.assets > button {
+  padding: 15px;
+  border-radius: 16px;
+  border: none;
+  background: #f8f9fe;
+  color: #006ffd;
+}
+
+.list {
+  background: none !important;
+  padding: 0;
+}
+
+.list > div {
+  background: none !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list div p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.list > div > :last-child {
+  background: #f8f9fe;
+  padding: 6px 25px;
+  color: #006ffd;
+  border-radius: 12px;
+}

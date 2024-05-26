@@ -2,8 +2,11 @@ import React from "react";
 import "./profilefoto.css";
 import img from "../../images/mainavatar.png";
 import avatar from "../../images/addavatar.png";
+import { useNavigate } from "react-router-dom";
 
 export const Profilefoto = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="profilefoto">
       <section className="tr">
@@ -12,8 +15,8 @@ export const Profilefoto = () => {
         <p>You can always change it to a more suitable one</p>
       </section>
       <div className="buttons tr">
-        <button>Yeah, leave it</button>
-        <button> Replace with another</button>
+        <button onClick={() => navigate("/name")}>Yeah, leave it</button>
+        <button onClick={() => navigate("/name")}> Replace with another</button>
       </div>
 
       <section className="fs">
@@ -22,7 +25,7 @@ export const Profilefoto = () => {
         <p>You can always change it to a more suitable one</p>
       </section>
       <div className="buttons fs">
-        <button>Upload a photo</button>
+        <button onClick={() => navigate("/name")}>Upload a photo</button>
       </div>
     </div>
   );

@@ -1,0 +1,36 @@
+.members {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.followed {
+  color: #ccc !important;
+}
+
+.list > :first-child > :last-child {
+  background: #f8f9fe;
+  color: #006ffd;
+}
+
+.members h1 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.members input {
+  padding: 14px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 16px;
+  background: #f8f9fe;
+}
+
+.members > p {
+  position: absolute;
+  top: 37px;
+  left: 16px;
+  color: #006ffd;
+  font-weight: 600;
+}

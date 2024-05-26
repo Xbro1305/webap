@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./name.css";
+import { useNavigate } from "react-router-dom";
 
 export const Name = () => {
+  const navigate = useNavigate();
   const [value, setValue] = useState(false);
   return (
     <div className="name">
@@ -13,7 +15,9 @@ export const Name = () => {
         name="name"
         placeholder="So what's your name..."
       />
-      <button disabled={value ? false : true}>Next</button>
+      <button onClick={() => navigate("/choosing")} disabled={value ? false : true}>
+        Next
+      </button>
     </div>
   );
 };

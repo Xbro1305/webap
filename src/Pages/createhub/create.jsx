@@ -5,8 +5,10 @@ import feed from "../../images/feed.svg";
 import key from "../../images/key.svg";
 import messages from "../../images/messages.svg";
 import "./create.css";
+import { useNavigate } from "react-router-dom";
 
 export const Create = () => {
+  const navigate = useNavigate();
   const [name, setName] = useState(false);
   return (
     <div className="create">
@@ -75,7 +77,9 @@ export const Create = () => {
           {">"}
         </section>
       </div>
-      <button disabled={name ? false : true}>Next</button>
+      <button disabled={name ? false : true} onClick={() => navigate("/")}>
+        Next
+      </button>
     </div>
   );
 };

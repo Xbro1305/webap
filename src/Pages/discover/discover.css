@@ -1,0 +1,40 @@
+.discover {
+  display: flex;
+  min-height: 95vh;
+  padding: 0 16px;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list div {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.list section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.list h4 {
+  width: 30px;
+  font-weight: 500;
+}
+
+.list > :first-child > :last-child {
+  background: linear-gradient(
+    90deg,
+    #8fd8ff 0%,
+    #bcb1ff 27%,
+    #df98fc 48%,
+    #ff9edb 80%,
+    #ffd998 100%
+  );
+  color: #fff;
+}

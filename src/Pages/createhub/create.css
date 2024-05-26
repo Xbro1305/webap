@@ -92,6 +92,7 @@
   background: #006ffd;
   color: #f8f9fe;
   font-size: 14px;
+  margin-bottom: 16px;
 }
 
 .create button:disabled {
