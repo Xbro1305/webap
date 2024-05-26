@@ -1,0 +1,56 @@
+.profilefoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  height: 100vh;
+}
+
+.profilefoto section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.profilefoto h1 {
+  font-size: 24px;
+}
+
+.profilefoto p {
+  font-size: 14px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  gap: 12px;
+}
+
+.buttons button {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  border-radius: 16px;
+  font-size: 15px;
+  background: #006ffd;
+  color: #fff;
+}
+
+.buttons > :nth-child(even) {
+  color: #006ffd;
+  background: #f5f7ff;
+}
+
+.fs {
+  display: none !important;
+}
