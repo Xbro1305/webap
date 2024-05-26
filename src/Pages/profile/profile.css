@@ -151,6 +151,7 @@
   width: 100%;
   margin-top: 5px;
   display: flex;
+  flex-direction: row !important;
   justify-content: space-between;
   background: #f8f9fe;
   padding: 12px;
