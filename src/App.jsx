@@ -24,7 +24,7 @@ export const App = () => {
         <Route path="/profile" element={<Profile />} />
         <Route path="/assets" element={<Assets />} />
         <Route path="/discover" element={<Discover />} />
-        <Route path="*" element={<Members />} />
+        <Route path="/members" element={<Members />} />
       </Routes>
     </BrowserRouter>
   );

@@ -11,8 +11,10 @@ import feed from "../../images/feed.svg";
 import messages from "../../images/messages.svg";
 import "./profile.css";
 import { Footer } from "../../Components/Footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 export const Profile = () => {
+  const navigate = useNavigate();
   const [more, setMore] = useState(false);
   return (
     <>
@@ -29,7 +31,7 @@ export const Profile = () => {
                 <p>28 464</p>
                 <span>followers</span>
               </div>
-              <div>
+              <div onClick={() => navigate("/members")}>
                 <p>14</p>
                 following
               </div>
